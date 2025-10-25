@@ -1,17 +1,17 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import FeatureGrid from './components/FeatureGrid';
-import DataShowcase from './components/DataShowcase';
+import EdNavbar from './components/EdNavbar';
+import EdHero from './components/EdHero';
+import EdFeatureGrid from './components/EdFeatureGrid';
+import EdAIShowcase from './components/EdAIShowcase';
 
 export default function App() {
   return (
     <div className="min-h-screen bg-[#0a0b0f] text-white font-inter selection:bg-[#00E5FF]/20 selection:text-white">
-      <Navbar />
+      <EdNavbar />
       <main>
-        <Hero />
-        <FeatureGrid />
-        <DataShowcase />
+        <EdHero />
+        <EdFeatureGrid />
+        <EdAIShowcase />
       </main>
     </div>
   );
