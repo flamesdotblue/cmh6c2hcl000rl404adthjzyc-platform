@@ -1,17 +1,17 @@
 import React from 'react';
-import EdNavbar from './components/EdNavbar';
-import EdHero from './components/EdHero';
-import EdFeatureGrid from './components/EdFeatureGrid';
-import EdAIShowcase from './components/EdAIShowcase';
+import EduNav from './components/EduNav';
+import AuroraHero from './components/AuroraHero';
+import ModulesGrid from './components/ModulesGrid';
+import InsightPanel from './components/InsightPanel';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#0a0b0f] text-white font-inter selection:bg-[#00E5FF]/20 selection:text-white">
-      <EdNavbar />
+    <div className="min-h-screen bg-[#0b0c10] text-white font-inter">
+      <EduNav />
       <main>
-        <EdHero />
-        <EdFeatureGrid />
-        <EdAIShowcase />
+        <AuroraHero />
+        <ModulesGrid />
+        <InsightPanel />
       </main>
     </div>
   );
